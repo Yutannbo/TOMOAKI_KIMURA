@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>本棚検索</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>div{padding: 10px;font-size:16px;}</style>
+</head>
+<body>
+
+<!-- Head[Start] -->
+<header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <div class="navbar-header"><a class="navbar-brand" href="bm_select.php">本棚</a></div>
+    </div>
+  </nav>
+</header>
+<!-- Head[End] -->
+
+<!-- Main[Start] -->
+<form method="post" action="bm_kensaku.php">
+  <div class="jumbotron">
+   <fieldset>
+    <legend>著者名を入力してください。</legend>
+     <label>著者名：<input name="author" type="text" name="author" style="width:100px"></label><br>
+     <input type="submit" value="検索">
+     <a href="bm_index.php" class="btn-pagetop">戻る</a>
+    </fieldset>
+  </div>
+</form>
+<!-- Main[End] -->
+
+
+</body>
+</html>
